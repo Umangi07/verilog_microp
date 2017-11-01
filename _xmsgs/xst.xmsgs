@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="109" delta="old" ><arg fmt="%s" index="1">&quot;program_memory.v&quot; line 39 </arg>Most significant bit operand in part-select of <arg fmt="%s" index="2">vector wire &apos;program_addr_array&apos;</arg> is illegal
+</msg>
+
+<msg type="error" file="HDLCompilers" num="110" delta="old" ><arg fmt="%s" index="1">&quot;program_memory.v&quot; line 39 </arg>Least significant bit operand in part-select of <arg fmt="%s" index="2">vector wire &apos;program_addr_array&apos;</arg> is illegal
+</msg>
+
+<msg type="error" file="HDLCompilers" num="45" delta="old" ><arg fmt="%s" index="1">&quot;program_memory.v&quot; line 39 </arg>Illegal right hand side of blocking assignment
+</msg>
+
+</messages>
+
