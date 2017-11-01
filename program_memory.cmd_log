@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 program_memory.ngc program_memory.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o program_memory_map.ncd program_memory.ngd program_memory.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/program_memory.syr" 

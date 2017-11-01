@@ -1,0 +1,100 @@
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+xst -intstyle ise -ifn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.xst" -ofn "D:/ee16b061_ee16b063/Processor/procesorfree/controlunit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 controlunit.ngc controlunit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o controlunit_map.ncd controlunit.ngd controlunit.pcf 
+par -w -intstyle ise -ol high -t 1 controlunit_map.ncd controlunit.ncd controlunit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr controlunit.pcf 

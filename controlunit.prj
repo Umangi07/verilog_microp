@@ -1,0 +1,4 @@
+verilog work "MEMORY.v"
+verilog work "main.v"
+verilog work "eu.v"
+verilog work "controlunit.v"

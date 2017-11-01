@@ -1,0 +1,162 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml controlunit.twx controlunit.ncd -o controlunit.twr
+controlunit.pcf
+
+Design file:              controlunit.ncd
+Physical constraint file: controlunit.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock addr<28> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+theflag<1>  |    6.507(F)|eu1/alu1/flag_not0001|   0.000|
+------------+------------+---------------------+--------+
+
+Clock addr<29> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+theflag<1>  |    6.875(F)|eu1/alu1/flag_not0001|   0.000|
+------------+------------+---------------------+--------+
+
+Clock addr<30> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+theflag<1>  |    7.477(F)|eu1/alu1/flag_not0001|   0.000|
+------------+------------+---------------------+--------+
+
+Clock addr<31> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+theflag<1>  |    6.622(F)|eu1/alu1/flag_not0001|   0.000|
+------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock addr<28>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+addr<28>       |         |         |    1.004|    1.004|
+addr<29>       |         |         |    1.399|    1.399|
+addr<30>       |         |         |    2.039|    2.039|
+addr<31>       |         |         |    1.177|    1.177|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock addr<29>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+addr<28>       |         |         |    0.709|    0.709|
+addr<29>       |         |         |    1.104|    1.104|
+addr<30>       |         |         |    1.744|    1.744|
+addr<31>       |         |         |    0.882|    0.882|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock addr<30>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+addr<28>       |         |         |    0.228|    0.228|
+addr<29>       |         |         |    0.623|    0.623|
+addr<30>       |         |         |    1.263|    1.263|
+addr<31>       |         |         |    0.401|    0.401|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock addr<31>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+addr<28>       |         |         |    0.912|    0.912|
+addr<29>       |         |         |    1.307|    1.307|
+addr<30>       |         |         |    1.947|    1.947|
+addr<31>       |         |         |    1.085|    1.085|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+addr<0>        |addr1<0>       |    4.807|
+addr<1>        |addr1<1>       |    4.807|
+addr<2>        |addr1<2>       |    4.815|
+addr<3>        |addr1<3>       |    4.794|
+addr<4>        |addr1<4>       |    4.815|
+addr<5>        |addr2<0>       |    5.048|
+addr<6>        |addr2<1>       |    5.048|
+addr<7>        |addr2<2>       |    5.304|
+addr<8>        |addr2<3>       |    5.815|
+addr<9>        |addr2<4>       |    4.815|
+addr<10>       |addr3<0>       |    8.237|
+addr<11>       |addr3<1>       |    7.123|
+addr<12>       |addr3<2>       |    6.704|
+addr<13>       |addr3<3>       |    7.378|
+addr<14>       |addr3<4>       |    6.901|
+addr<15>       |number<0>      |    6.583|
+addr<16>       |number<1>      |    7.027|
+addr<17>       |number<2>      |    7.396|
+addr<18>       |number<3>      |    6.912|
+addr<19>       |number<4>      |    7.378|
+addr<20>       |number<5>      |    7.924|
+addr<21>       |number<6>      |    7.157|
+addr<22>       |number<7>      |    6.938|
+addr<28>       |opcode<0>      |    4.794|
+addr<29>       |opcode<1>      |    5.574|
+addr<30>       |opcode<2>      |    5.053|
+addr<31>       |opcode<3>      |    5.068|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 31 16:07:53 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 111 MB
+
+
+
